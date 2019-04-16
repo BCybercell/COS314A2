@@ -153,7 +153,7 @@ def jsonFile(aDictionary, aFileName):  # TODO remove after testing
 
 def testCode():
     start = time.time()
-    lData = readFile('Mini_Understanding.txt')
+    lData = readFile('Training_Data.txt')
     # Mini_Understanding
     # Training_Data
     print('Data received')
@@ -185,6 +185,20 @@ def testCode():
     print('time elapsed:', end - start)
     print('===================================================================')
 
+    print('Adding validation data')
+    lData = readFile('Validation_Data.txt')
+    print('Data received')
+    lDictData = createDict(lData)
+    print('Dictionary created')
+
+    print('Building tree')
+    for line in lDictData['Line']:
+        root = buildTreeTest(root, ar.copy(), line)
+    print('Tree built')
+    end = time.time()
+    print('time elapsed:', end - start)
+
+    print('===================================================================')
     # print('Saving temp file')
     # jsonFile(root, 'rootTest.json')
     # print('Temp file saved')
