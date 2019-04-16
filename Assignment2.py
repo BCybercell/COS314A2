@@ -127,51 +127,6 @@ def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
     return aNode
 
 
-def assignValues(aNode, aDict):  # TODO fix with newNode structure
-    if aDict['Data'][aNode['Label']]:
-        if aNode['True'] and 'Outcome' not in aNode['True']:
-            assignValues(aNode['True'], aDict)
-        else:
-            if 'Outcome' in aNode['True']:
-                if aDict['Value']:
-                    aNode['True']['Outcome']['True'] = aNode['True']['Outcome']['True'] + 1
-                else:
-                    aNode['True']['Outcome']['False'] = aNode['True']['Outcome']['False'] + 1
-            else:
-                aNode['True'] = {
-                    'Outcome':
-                        {
-                            'True': 0,
-                            'False': 0
-                        }
-                }
-                if aDict['Value']:
-                    aNode['True']['Outcome']['True'] = 1
-                else:
-                    aNode['True']['Outcome']['False'] = 1
-    else:
-        if aNode['False'] and 'Outcome' not in aNode['False']:
-            assignValues(aNode['False'], aDict)
-        else:
-            if 'Outcome' in aNode['False']:
-                if aDict['Value']:
-                    aNode['False']['Outcome']['True'] = aNode['False']['Outcome']['True'] + 1
-                else:
-                    aNode['False']['Outcome']['False'] = aNode['False']['Outcome']['False'] + 1
-            else:
-                aNode['False'] = {
-                    'Outcome':
-                        {
-                            'True': 0,
-                            'False': 0
-                        }
-                }
-                if aDict['Value']:
-                    aNode['False']['Outcome']['True'] = 1
-                else:
-                    aNode['False']['Outcome']['False'] = 1
-
-
 def evaluateTree(aNode, aDict):  # TODO fix with newNode structure
     if aDict['Data'][aNode['Label']]:
         if aNode['True']:
