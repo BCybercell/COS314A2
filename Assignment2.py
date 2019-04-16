@@ -205,7 +205,6 @@ def testCode():
     lDictData = createDict(lData)
     print('Dictionary created')
 
-    # setEntropy = -(9/14) * math.log((9/14), 2) - ((5/14) * math.log((5/14), 2)) # test
     setTrue, setFalse, setEntropy = computeSetEntropy(lDictData)
     print('True values:', setTrue)
     print('False values:', setFalse)
