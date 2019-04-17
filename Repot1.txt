@@ -1,0 +1,374 @@
+C:\Users\Dean\AppData\Local\Programs\Python\Python37\python.exe "C:/Users/Dean/Desktop/Desktop/2019/COS 314/Assignments/Assignment 2 Git/COS314A2/Assignment2.py"
+Data received
+Dictionary created
+==================================================
+Calling GA
+Creating random children
+Random children created
+
+=================================================================
+=================================================================
+Mutation : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.626
+
+=================================================================
+=================================================================
+Mutation : 2
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.665
+
+=================================================================
+=================================================================
+Mutation : 3
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.6744
+
+=================================================================
+=================================================================
+Mutation : 4
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.676
+
+=================================================================
+=================================================================
+Mutation : 5
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.7208
+
+=================================================================
+=================================================================
+Mutation : 6
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.8108
+
+=================================================================
+=================================================================
+Mutation : 7
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.874
+
+=================================================================
+=================================================================
+Mutation : 8
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.9604
+
+=================================================================
+=================================================================
+Mutation : 9
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.9954
+Data received
+
+=================================================================
+=================================================================
+Mutation 2.0 : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 1.0
+Data received
+Dictionary created
+Final: 0.6175
+time elapsed: 642.8961064815521
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\Dean\AppData\Local\Programs\Python\Python37\python.exe "C:/Users/Dean/Desktop/Desktop/2019/COS 314/Assignments/Assignment 2 Git/COS314A2/Assignment2.py"
+Data received
+Dictionary created
+==================================================
+Calling GA
+Creating random children
+Random children created
+
+=================================================================
+=================================================================
+Mutation : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.626
+
+=================================================================
+=================================================================
+Mutation : 2
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.6596
+
+=================================================================
+=================================================================
+Mutation : 3
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.6746
+
+=================================================================
+=================================================================
+Mutation : 4
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.6944
+
+=================================================================
+=================================================================
+Mutation : 5
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.8848
+
+=================================================================
+=================================================================
+Mutation : 6
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.9628
+Data received
+
+=================================================================
+=================================================================
+Mutation 2.0 : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 10
+Child : 2 of 10
+Child : 3 of 10
+Child : 4 of 10
+Child : 5 of 10
+Child : 6 of 10
+Child : 7 of 10
+Child : 8 of 10
+Child : 9 of 10
+Child : 10 of 10
+Children mated and mutated
+Top effectiveness : 0.9935
+Data received
+Dictionary created
+Final: 0.621
+time elapsed: 139.6170618534088
+
+Process finished with exit code 0
