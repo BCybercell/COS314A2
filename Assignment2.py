@@ -398,7 +398,7 @@ def Evolve(children, aDictData):
 def GA(aDictData):
     children = []
     print('Creating random children')
-    for x in range(100):
+    for x in range(30):
         randomNum = random.randint(1, 101)-1
         if randomNum >= 100:
             randomNum = 99
@@ -414,7 +414,7 @@ def GA(aDictData):
     children.sort(key=sortByGain, reverse=True)
     topEff = 0.0
     x = 0
-    while topEff < 0.999:
+    while topEff < 0.995:
         x += 1
         print('')
         print('=================================================================')
@@ -423,7 +423,7 @@ def GA(aDictData):
         children = Evolve(children, aDictData)
 
         children.sort(key=sortByEffectiveness, reverse=True)
-        topEff = children[10]['Effectiveness']
+        topEff = children[0]['Effectiveness']
         print('Top effectiveness :', topEff)
 
     lData = readFile('Validation_Data.txt')
@@ -437,7 +437,7 @@ def GA(aDictData):
     x = 0
     for child in children:
         child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
-    while topEff < 0.999:
+    while topEff < 0.995:
         x += 1
         print('')
         print('=================================================================')
@@ -445,7 +445,7 @@ def GA(aDictData):
         print('Mutation 2.0 :', x)
         children = Evolve(children, lDictData)
         children.sort(key=sortByEffectiveness, reverse=True)
-        topEff = children[10]['Effectiveness']
+        topEff = children[0]['Effectiveness']
         print('Top effectiveness :', topEff)
 
     return children
