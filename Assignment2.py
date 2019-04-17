@@ -311,7 +311,7 @@ def filterDict(aDict, toKeep):
 
 
 def buildID3(aList, aDictData, path):
-    lArr = aList
+    lArr = copy.deepcopy(aList)
     # num = lArr.pop(0)
     newDict = filterDict(aDictData, path)
     candidates = []
@@ -387,9 +387,9 @@ def Evolve(children):
             randomNum = lent-1
         children.append(mate(child, tempChildren[randomNum]))  # creates 400 children
         # if randomNum > lent/4:
-        mutation = random.randint(1, 101) - 1
-        if mutation >= 100:
-            mutation = 99
+        mutation = random.randint(1, 5) - 1  # TODO switch to 101
+        if mutation >= 5:  # TODO switch to 100
+            mutation = 4   # TODO switch to 99
         mutatedChild = {
             'NodeArr': [mutation]
         }
@@ -403,9 +403,9 @@ def GA():
     children = []
     print('Creating random children')
     for x in range(30):
-        randomNum = random.randint(1, 101)-1
-        if randomNum >= 100:
-            randomNum = 99
+        randomNum = random.randint(1, 5)-1  # TODO switch to 101
+        if randomNum >= 5:  # TODO switch to 100
+            randomNum = 4  # TODO switch to 99
         #  create children randomly
         tempNode = createRandomChild(gDictDataTraining, randomNum)
         child = {
