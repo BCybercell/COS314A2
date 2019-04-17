@@ -2,6 +2,7 @@ import time
 import math
 import copy
 import json  # TODO remove after testing
+import random
 
 
 def readFile(aName):
@@ -77,23 +78,26 @@ def computeSetEntropy(aDict):
             (lSetFalse / lTotal) * math.log((lSetFalse / lTotal), 2))
     return lSetTrue, lSetFalse, lSetEntropy
 
+
 node = {
-        'Label': -1,
-        'True': {},
-        'False': {},
-        'EndOutcome':
+    'Label': -1,
+    'True': {},
+    'False': {},
+    'EndOutcome':
         {
             'True': 0,
             'False': 0
         },
-        'Entropy':
+    'Entropy':
         {
             'True': 0,
             'False': 0,
-            'Value' : 0
-        }
+            'Value': 0
+        },
+    'Gain': -1,
+    'List': []
 
-    }
+}
 
 
 def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
@@ -108,11 +112,9 @@ def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
         aNode['Entropy']['True'] = aNode['Entropy']['True'] + 1
     else:
         aNode['Entropy']['False'] = aNode['Entropy']['False'] + 1
+    aNode['Entropy']['Value'] = calcEntropy(aNode['Entropy']['True'], aNode['Entropy']['False'])
 
     if lArr:  # If we need to go deeper in the tree
-
-        aNode['Entropy']['Value'] = calcEntropy(aNode['Entropy']['True'], aNode['Entropy']['False'])
-
         if aDict['Data'][aNode['Label']]:
             tempNode = buildTreeTest(aNode['True'], lArr, aDict)
             aNode['True'] = tempNode
@@ -170,8 +172,8 @@ def testCode():
 
     print('Building tree')
     ar = []
-    for x in range(5):
-    # for x in range(100):
+    # for x in range(5):
+    for x in range(100):
         ar.append(x)
 
     root = {}
@@ -208,24 +210,271 @@ def testCode():
     count = 0
     # =====================================================
 
-    # # lData = readFile('Test_Data.txt')
-    # lData = readFile('Validation_Data.txt')
+    # lData = readFile('Test_Data.txt')
+    # # lData = readFile('Validation_Data.txt')
     # print('Data received')
     # lDictDataTest = createDict(lData)
     # print('Dictionary created')
 
     # ===========================================
     # for line in lDictDataTest['Line']:
-    for line in lDictData['Line']:
 
-        test = evaluateTree(root, line)
-        if line['Value'] == test:
-            tru += 1
-        count += 1
-    print('Accuracy', (tru/count)*100, '%')
+    print('Accuracy with no GA', (tru / count) * 100, '%')
     # print(test)
     end = time.time()
     print('time elapsed:', end - start)
 
 
-testCode()
+def calEffectiveness(root, aDictData):
+    tru = 0
+    count = 0
+    for line in aDictData:
+        test = evaluateTree(root, line)
+        if line['Value'] == test:
+            tru += 1
+        count += 1
+    return tru/count
+
+
+def createRandomChild(aDictData, randomNum):
+    child = {}
+    for line in aDictData:
+        child = buildTreeTest(child, [randomNum, 100], line)
+    if 'False' not in child or 'True' not in child:
+        print('Ahhhhh', child)
+        print('ADATA',aDictData)
+    if 'Entropy' in child:
+        lTotal = child['Entropy']['True'] + child['Entropy']['False']
+    else:
+        print('line', child)
+    if 'Entropy' in child['False'] and 'Entropy' in child['True']:
+        child['Gain'] = child['Entropy']['Value'] - (
+            (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value']) - (
+            (child['Entropy']['False'] / lTotal) * child['False']['Entropy']['Value'])
+    elif 'Entropy' in child['False']:
+        child['Gain'] = child['Entropy']['Value'] - (
+                (child['Entropy']['False'] / lTotal) * child['False']['Entropy']['Value'])
+    else:
+        child['Gain'] = child['Entropy']['Value'] - (
+                (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value'])
+        # print('line', child)
+
+    child['False'] = {}
+    child['True'] = {}
+    return child
+
+
+def sortByGain(val):
+    return val['Node']['Gain']
+
+
+def sortByGain2(val):
+    return val['Gain']
+
+
+def sortByEffectiveness(val):
+    return val['Effectiveness']
+
+
+def removeChildren(aChildren, aStrength):
+    numToRemove = int(len(aChildren)*aStrength)
+    for x in range(numToRemove):
+        aChildren.pop()
+    return aChildren
+
+
+def filterDict(aDict, toKeep):
+    # toKeep =\
+    #     [
+    #         {
+    #         Label : 1,
+    #         Value: True},
+    #         {2 : False}
+    # ]
+    # lineDict = {
+    #     'Value': True,
+    #     'Data': {}
+    # }
+    tempDict = []
+    for line in aDict:
+        check = 1  # if 0 then one check is false
+        for lineToKeep in toKeep:
+
+            if not lineToKeep['Value'] == line['Data'][lineToKeep['Label']]:
+                check = 0
+        if check == 1:
+            tempDict.append(line)
+    return tempDict
+
+
+def buildID3(aList, aDictData, path):
+    lArr = aList
+    # num = lArr.pop(0)
+    newDict = filterDict(aDictData.copy(), path)
+    candidates = []
+
+    for num in lArr:
+        if newDict:
+            tempNode = createRandomChild(newDict, num)
+        else:
+            tempNode = copy.deepcopy(node)
+            tempNode['Label'] = num
+        candidates.append(tempNode)
+    candidates.sort(key=sortByGain2, reverse=True)
+    selectedChild = candidates[0]
+    num = lArr.pop(lArr.index(selectedChild['Label']))
+
+    pathTrue = path.copy()
+    pathFalse = path.copy()
+
+    if lArr:
+        pathTrue.append({
+             'Label': num,
+             'Value': True})
+        pathFalse.append({
+            'Label': num,
+            'Value': False})
+        tempNode = buildID3(lArr.copy(), newDict.copy(), pathTrue)
+        selectedChild['True'] = tempNode
+
+        tempNode = buildID3(lArr.copy(), newDict.copy(), pathFalse)
+        selectedChild['False'] = tempNode
+
+    else:
+        selectedChild['EndOutcome']['True'] = selectedChild['Entropy']['True']
+        selectedChild['EndOutcome']['False'] = selectedChild['Entropy']['False']
+
+    return selectedChild
+
+
+def mate(aParent1, aParent2, aDictData):
+    # Combine two arrays/lists
+    lList = aParent1['NodeArr']
+    lListC = lList.copy()
+    lTempList = aParent2['NodeArr']
+    for item in lTempList:
+        if item not in lListC:
+            lListC.append(item)
+    root = {}
+
+    root = buildID3(lListC.copy(), aDictData.copy(), [])
+    child = {
+        'Node': root,
+        'NodeArr': lListC.copy(),
+        'Effectiveness': calEffectiveness(root, aDictData)
+    }
+    return child
+
+
+def Evolve(children, aDictData):
+
+    print('Removing weak children')
+    children = removeChildren(children, 0.67)  # removes lower 75 children
+    print('Weak children removed')
+    tempChildren = copy.deepcopy(children)
+    print('Mating and mutating children')
+    lent = len(tempChildren)
+    cnt = 1
+
+    for child in tempChildren:
+        print('Child :', cnt, 'of', lent)
+        cnt += 1
+        randomNum = random.randint(0, lent) - 1
+        if randomNum >= lent:
+            randomNum = lent-1
+        children.append(mate(child.copy(), tempChildren[randomNum].copy(), aDictData))  # creates 400 children
+        # if randomNum > lent/4:
+        mutation = random.randint(1, 101) - 1
+        if mutation >= 100:
+            mutation = 99
+        mutatedChild = {
+            'NodeArr': [mutation]
+        }
+        children.append(mate(child.copy(), mutatedChild.copy(), aDictData))
+    print('Children mated and mutated')
+    return children
+
+
+def GA(aDictData):
+    children = []
+    print('Creating random children')
+    for x in range(100):
+        randomNum = random.randint(1, 101)-1
+        if randomNum >= 100:
+            randomNum = 99
+        #  create children randomly
+        tempNode = createRandomChild(aDictData, randomNum)
+        child = {
+            'Node': tempNode,
+            'NodeArr': [tempNode['Label']],
+            'Effectiveness': -1
+        }
+        children.append(child)
+    print('Random children created')
+    children.sort(key=sortByGain, reverse=True)
+    topEff = 0.0
+    x = 0
+    while topEff < 0.999:
+        x += 1
+        print('')
+        print('=================================================================')
+        print('=================================================================')
+        print('Mutation :', x)
+        children = Evolve(children, aDictData)
+
+        children.sort(key=sortByEffectiveness, reverse=True)
+        topEff = children[10]['Effectiveness']
+        print('Top effectiveness :', topEff)
+
+    lData = readFile('Validation_Data.txt')
+    # Mini_Understanding
+    # Training_Data
+    print('Data received')
+    lDictData = createDict(lData)
+    lDictData = lDictData['Line']
+
+    topEff = 0.0
+    x = 0
+    for child in children:
+        child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
+    while topEff < 0.999:
+        x += 1
+        print('')
+        print('=================================================================')
+        print('=================================================================')
+        print('Mutation 2.0 :', x)
+        children = Evolve(children, lDictData)
+        children.sort(key=sortByEffectiveness, reverse=True)
+        topEff = children[10]['Effectiveness']
+        print('Top effectiveness :', topEff)
+
+    return children
+
+
+def testCodeGA():
+    start = time.time()
+
+    start = time.time()
+    lData = readFile('Training_Data.txt')
+    # Mini_Understanding
+    # Training_Data
+    print('Data received')
+    lDictData = createDict(lData)
+    print('Dictionary created')
+    print('==================================================')
+    #
+    print('Calling GA')
+    children = GA(lDictData['Line'])
+    lData = readFile('Test_Data.txt')
+    # lData = readFile('Validation_Data.txt')
+    print('Data received')
+    lDictDataTest = createDict(lData)
+    print('Dictionary created')
+    eff = calEffectiveness(children[0]['Node'], lDictDataTest['Line'])
+    print('Final:', eff)
+    end = time.time()
+    print('time elapsed:', end - start)
+
+
+# testCode()
+testCodeGA()
