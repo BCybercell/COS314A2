@@ -414,7 +414,7 @@ def GA(aDictData):
     children.sort(key=sortByGain, reverse=True)
     topEff = 0.0
     x = 0
-    while topEff < 0.995:
+    while topEff < 0.9:
         x += 1
         print('')
         print('=================================================================')
@@ -437,7 +437,7 @@ def GA(aDictData):
     x = 0
     for child in children:
         child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
-    while topEff < 0.995:
+    while topEff < 0.9:
         x += 1
         print('')
         print('=================================================================')
