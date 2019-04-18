@@ -239,17 +239,38 @@ def calEffectiveness(root, aDictData):
     return tru/count
 
 
+def confusionData(root, aDictData):
+    lTruePositive = 0
+    lTrueNegative = 0
+    lFalsePositive = 0
+    lFalseNegative = 0
+    for line in aDictData:
+        test = evaluateTree(root, line)
+        if test:
+            if line['Value']:
+                lTruePositive += 1
+            else:
+                lFalsePositive += 1
+        else:
+            if line['Value']:
+                lFalseNegative += 1
+            else:
+                lTrueNegative += 1
+
+    return lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative
+
+
 def createRandomChild(aDictData, randomNum):
     child = {}
     for line in aDictData:
         child = buildTreeTest(child, [randomNum, 100], line)
     if 'False' not in child or 'True' not in child:
-        print('Ahhhhh', child)
-        print('ADATA', aDictData)
+        i = 0
     if 'Entropy' in child:
         lTotal = child['Entropy']['True'] + child['Entropy']['False']
     else:
         print('line', child)
+        lTotal = 1
     if 'Entropy' in child['False'] and 'Entropy' in child['True']:
         child['Gain'] = child['Entropy']['Value'] - (
             (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value']) - (
@@ -387,9 +408,9 @@ def Evolve(children):
             randomNum = lent-1
         children.append(mate(child, tempChildren[randomNum]))  # creates 400 children
         # if randomNum > lent/4:
-        mutation = random.randint(1, 5) - 1  # TODO switch to 101
-        if mutation >= 5:  # TODO switch to 100
-            mutation = 4   # TODO switch to 99
+        mutation = random.randint(1, 101) - 1  # TODO switch to 101
+        if mutation >= 100:  # TODO switch to 100
+            mutation = 99   # TODO switch to 99
         mutatedChild = {
             'NodeArr': [mutation]
         }
@@ -403,9 +424,9 @@ def GA():
     children = []
     print('Creating random children')
     for x in range(30):
-        randomNum = random.randint(1, 5)-1  # TODO switch to 101
-        if randomNum >= 5:  # TODO switch to 100
-            randomNum = 4  # TODO switch to 99
+        randomNum = random.randint(1, 101)-1  # TODO switch to 101
+        if randomNum >= 100:  # TODO switch to 100
+            randomNum = 99  # TODO switch to 99
         #  create children randomly
         tempNode = createRandomChild(gDictDataTraining, randomNum)
         child = {
@@ -418,7 +439,7 @@ def GA():
     children.sort(key=sortByGain, reverse=True)
     topEff = 0.0
     x = 0
-    while topEff < 0.9:
+    while topEff < 0.9:  # Decreased to 0.9 from 0.999
         x += 1
         print('')
         print('=================================================================')
@@ -430,35 +451,35 @@ def GA():
         topEff = children[0]['Effectiveness']
         print('Top effectiveness :', topEff)
 
-    lData = readFile('Mini_Understanding.txt')
-    # Mini_Understanding
-    # Training_Data
-    print('Data received')
-    lDictData = createDict(lData)
-    gDictDataTraining = lDictData['Line']
+    # lData = readFile('Validation_Data.txt')
+    # # Mini_Understanding
+    # # Training_Data
+    # print('Data received')
+    # lDictData = createDict(lData)
+    # gDictDataTraining = lDictData['Line']
 
     topEff = 0.0
     x = 0
-    for child in children:
-        child['Effectiveness'] = calEffectiveness(child['Node'], gDictDataTraining)
-    while topEff < 0.9:
-        x += 1
-        print('')
-        print('=================================================================')
-        print('=================================================================')
-        print('Mutation 2.0 :', x)
-        children = Evolve(children)
-        children.sort(key=sortByEffectiveness, reverse=True)
-        topEff = children[0]['Effectiveness']
-        print('Top effectiveness :', topEff)
-
-    return children
+    # for child in children:
+    #     child['Effectiveness'] = calEffectiveness(child['Node'], gDictDataTraining)
+    # while topEff < 0.999:
+    #     x += 1
+    #     print('')
+    #     print('=================================================================')
+    #     print('=================================================================')
+    #     print('Mutation 2.0 :', x)
+    #     children = Evolve(children)
+    #     children.sort(key=sortByEffectiveness, reverse=True)
+    #     topEff = children[0]['Effectiveness']
+    #     print('Top effectiveness :', topEff)
+    #
+    return children[0]
 
 
 def testCodeGA():
     global gDictDataTraining
     start = time.time()
-    lData = readFile('Mini_Understanding.txt')
+    lData = readFile('Training_Data.txt')
     # Mini_Understanding
     # Training_Data
     print('Data received')
@@ -469,13 +490,31 @@ def testCodeGA():
     #
     print('Calling GA')
     children = GA()
-    lData = readFile('Mini_Understanding.txt')
+    lData = readFile('Test_Data.txt')
     # lData = readFile('Validation_Data.txt')
     print('Data received')
     lDictDataTest = createDict(lData)
     print('Dictionary created')
-    eff = calEffectiveness(children[0]['Node'], lDictDataTest['Line'])
+    setTrue, setFalse, setEntropy = computeSetEntropy(lDictDataTest)
+    print('True values:', setTrue)
+    print('False values:', setFalse)
+    print('Entropy:', setEntropy)
+    eff = calEffectiveness(children['Node'], lDictDataTest['Line'])
     print('Final:', eff)
+    print('==================================================')
+    print('==================================================')
+    print('==================================================')
+    lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative = confusionData(children['Node'], lDictDataTest['Line'])
+    print('True positive:', lTruePositive)
+    print('True negative:', lTrueNegative)
+    print('False positive:', lFalsePositive)
+    print('False negative:', lFalseNegative)
+    print('==================================================')
+    print('==================================================')
+    print('==================================================')
+    print('Saving temp file')
+    jsonFile(children['Node'], 'topChild.json')
+    print('Temp file saved')
     end = time.time()
     print('time elapsed:', end - start)
 

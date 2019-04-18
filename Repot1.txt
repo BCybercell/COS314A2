@@ -372,3 +372,353 @@ Final: 0.621
 time elapsed: 139.6170618534088
 
 Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Python 3.6.1 (default, Dec 2015, 13:05:11)
+[GCC 4.8.2] on linux
+Data received
+Dictionary created
+==================================================
+Calling GA
+Creating random children
+Random children created
+
+=================================================================
+=================================================================
+Mutation : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.626
+
+=================================================================
+=================================================================
+Mutation : 2
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6686
+
+=================================================================
+=================================================================
+Mutation : 3
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6728
+
+=================================================================
+=================================================================
+Mutation : 4
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6812
+
+=================================================================
+=================================================================
+Mutation : 5
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.7266
+
+=================================================================
+=================================================================
+Mutation : 6
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.7598
+
+=================================================================
+=================================================================
+Mutation : 7
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.7774
+
+=================================================================
+=================================================================
+Mutation : 8
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.7806
+
+=================================================================
+=================================================================
+Mutation : 9
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.808
+
+=================================================================
+=================================================================
+Mutation : 10
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.8966
+
+=================================================================
+=================================================================
+Mutation : 11
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.9704
+Data received
+
+=================================================================
+=================================================================
+Mutation 2.0 : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.995
+Data received
+Dictionary created
+Final: 0.6185
+time elapsed: 953.4738626480103
+
+
+
+
+
+
+
+
+Data received
+Dictionary created
+==================================================
+Calling GA
+Creating random children
+Random children created
+
+=================================================================
+=================================================================
+Mutation : 1
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.626
+
+=================================================================
+=================================================================
+Mutation : 2
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.649
+
+=================================================================
+=================================================================
+Mutation : 3
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.649
+
+=================================================================
+=================================================================
+Mutation : 4
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6606
+
+=================================================================
+=================================================================
+Mutation : 5
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6704
+
+=================================================================
+=================================================================
+Mutation : 6
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.6776
+
+=================================================================
+=================================================================
+Mutation : 7
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.692
+
+=================================================================
+=================================================================
+Mutation : 8
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.8074
+
+=================================================================
+=================================================================
+Mutation : 9
+Removing weak children
+Weak children removed
+Mating and mutating children
+Child : 1 of 5
+Child : 2 of 5
+Child : 3 of 5
+Child : 4 of 5
+Child : 5 of 5
+Children mated and mutated
+Top effectiveness : 0.9244
+Data received
+Data received
+Dictionary created
+True values: 764
+False values: 1236
+Entropy: 0.9594423211075276
+Final: 0.616
+Saving temp file
+Temp file saved
+time elapsed: 523.825234413147
