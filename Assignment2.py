@@ -439,7 +439,7 @@ def GA():
     children.sort(key=sortByGain, reverse=True)
     topEff = 0.0
     x = 0
-    while topEff < 0.9:  # Decreased to 0.9 from 0.999
+    while topEff < 0.999999:  # Decreased to 0.9 from 0.999
         x += 1
         print('')
         print('=================================================================')
@@ -451,28 +451,30 @@ def GA():
         topEff = children[0]['Effectiveness']
         print('Top effectiveness :', topEff)
 
-    # lData = readFile('Validation_Data.txt')
-    # # Mini_Understanding
-    # # Training_Data
-    # print('Data received')
-    # lDictData = createDict(lData)
-    # gDictDataTraining = lDictData['Line']
+    lData = readFile('Validation_Data.txt')
+    # Mini_Understanding
+    # Training_Data
+    print('Data received')
+    lDictData = createDict(lData)
+    lDictData = lDictData['Line']
 
     topEff = 0.0
     x = 0
-    # for child in children:
-    #     child['Effectiveness'] = calEffectiveness(child['Node'], gDictDataTraining)
-    # while topEff < 0.999:
-    #     x += 1
-    #     print('')
-    #     print('=================================================================')
-    #     print('=================================================================')
-    #     print('Mutation 2.0 :', x)
-    #     children = Evolve(children)
-    #     children.sort(key=sortByEffectiveness, reverse=True)
-    #     topEff = children[0]['Effectiveness']
-    #     print('Top effectiveness :', topEff)
-    #
+    for child in children:
+        child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
+    while topEff < 0.9999:
+        x += 1
+        print('')
+        print('=================================================================')
+        print('=================================================================')
+        print('Mutation 2.0 :', x)
+        children = Evolve(children)
+        for child in children:
+            child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
+        children.sort(key=sortByEffectiveness, reverse=True)
+        topEff = children[0]['Effectiveness']
+        print('Top effectiveness :', topEff)
+
     return children[0]
 
 
@@ -513,7 +515,7 @@ def testCodeGA():
     print('==================================================')
     print('==================================================')
     print('Saving temp file')
-    jsonFile(children['Node'], 'topChild.json')
+    jsonFile(children['Node'], 'topChildRougher.json')
     print('Temp file saved')
     end = time.time()
     print('time elapsed:', end - start)
