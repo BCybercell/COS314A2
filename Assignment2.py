@@ -467,7 +467,9 @@ def GA():
     x = 0
     for child in children:
         child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
-    while topEff < 0.72:  # changed to 72% from 88
+    # this keeps evolving till either it reaches 100% accuracy or 120 generations have been run,
+    # but it still needs to get at least 86% accuracy.
+    while topEff < 0.9999 and (x < 120 or x < 0.86):  # changed to 99.99% from 85
         x += 1
         print('')
         print('')
@@ -482,7 +484,11 @@ def GA():
         topEff = children[0]['Effectiveness']
         print('[*]Top effectiveness :', topEff)
         print('[*]Top attributes :', children[0]['NodeArr'])
-
+    print('')
+    print('')
+    print('============================================================================================')
+    print('============================================================================================')
+    print('============================================================================================')
     return children[0]
 
 

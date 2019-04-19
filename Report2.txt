@@ -1,0 +1,3393 @@
+C:\Users\Dean\AppData\Local\Programs\Python\Python37\python.exe "C:/Users/Dean/Desktop/Desktop/2019/COS 314/Assignments/Assignment 2 Git/COS314A2/Assignment2.py"
+[+]Data received
+[+]Dictionary created
+==================================================
+[+]Calling GA
+[+]Creating random children
+[+]Random children created
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 1
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 83
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4839892387390137 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 3
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.5152993202209473 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 60
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.3433992862701416 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 76
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.3278346061706543 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 76
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.3121657371520996 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 89
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 0.6560933589935303 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 16
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.32783842086792 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6734
+[*]Top attributes : [4, 18]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 2
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 51
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4527521133422852 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 16
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4996483325958252 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4996733665466309 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 0.73417067527771 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 8
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4996428489685059 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 76
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4371602535247803 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 19
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.499645471572876 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.677
+[*]Top attributes : [99, 18, 4, 83]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 3
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 4
+     [+]No building of tree required
+ [*]Child took 0.8904154300689697 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 21
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.6714763641357422 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 32
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.6871013641357422 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 81
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4215397834777832 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4371581077575684 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 61
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 0.8904142379760742 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 37
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.6558911800384521 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6804
+[*]Top attributes : [4, 18, 99, 21]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 4
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.874523401260376 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 9
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.2807090282440186 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 30
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.14011812210083 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 35
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.9839367866516113 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 96
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.9995214939117432 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 23
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.8745298385620117 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 48
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.9995639324188232 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6924
+[*]Top attributes : [4, 18, 51, 32, 48]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 5
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.4681544303894043 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.5462729930877686 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 89
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.2809534072875977 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 13
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.5462400913238525 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 75
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.4056782722473145 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 58
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.124732494354248 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.483814239501953 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7174
+[*]Top attributes : [4, 18, 51, 32, 48, 99, 21, 83, 16]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 6
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 70
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 3.4054198265075684 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 0
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 3.0617728233337402 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 84
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 3.1711254119873047 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 10
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.936802864074707 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 50
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.9368064403533936 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 19
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 2.936802625656128 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.4840242862701416 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.739
+[*]Top attributes : [4, 18, 51, 32, 48, 99, 21, 83, 16, 89]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 7
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 24
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.405206680297852 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 14
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.405206680297852 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 49
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.0459206104278564 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 98
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 3.530412197113037 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 50
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 1.7183418273925781 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 3.467930793762207 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 50
+     [+]No building of tree required
+ [*]Child took 2.0307669639587402 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.834
+[*]Top attributes : [4, 18, 51, 32, 48, 99, 21, 83, 16, 89, 37, 9]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 8
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 81
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.139174461364746 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.13917088508606 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.154792547225952 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 9
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.873644828796387 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 57
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.686115503311157 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 23
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.733050346374512 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 68
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.779847145080566 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.9654
+[*]Top attributes : [4, 18, 51, 32, 48, 99, 21, 83, 16, 70, 14, 89, 37, 9, 50]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 9
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 81
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.186509132385254 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 95
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.26370096206665 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.826268911361694 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 28
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.779378890991211 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 23
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.341777324676514 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 6
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.513608694076538 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 16
+     [+]No building of tree required
+ [*]Child took 4.311477184295654 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.9938
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 50, 48, 21, 24, 47, 70, 14]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 10
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 11
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.858258247375488 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 24
+     [+]No building of tree required
+ [*]Child took 4.905057430267334 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 4.936366558074951 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 50
+     [+]No building of tree required
+ [*]Child took 4.858222246170044 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 93
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.686357259750366 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 26
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.982247591018677 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 17
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.655148506164551 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.9976
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 50, 48, 21, 24, 47, 70, 14, 11]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 11
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 2
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.450648069381714 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 35
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.498701333999634 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 51
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 31
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.264409780502319 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 55
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.873839378356934 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 19
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.811331272125244 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 1
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 4.889505386352539 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.999
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 50, 48, 21, 24, 47, 70, 14, 11, 2]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation : 12
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 75
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.700317859649658 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 60
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.686152219772339 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 66
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.654952764511108 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 8
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.388122797012329 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 0
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.46745753288269 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 44
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.481894493103027 s
+[+]Children mated and mutated
+[*]Top effectiveness : 1.0
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 50, 48, 21, 24, 47, 70, 14, 11, 2, 81, 35]
+[+]Data received
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 1
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 6.3578715324401855 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 92
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.012777090072632 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.981776475906372 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 6.186060667037964 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 24
+     [+]No building of tree required
+ [*]Child took 6.451571702957153 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 32
+     [+]No building of tree required
+ [*]Child took 5.670532941818237 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 84
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.670530557632446 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.674
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 2
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 13.902995824813843 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.990453243255615 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 86
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.993630886077881 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 34
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 5.857956647872925 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 61
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.326657295227051 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 50
+     [+]No building of tree required
+ [*]Child took 6.76399302482605 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 29
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 13.16875410079956 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.675
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 2, 81, 35]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 3
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 81
+     [+]No building of tree required
+ [*]Child took 7.591982364654541 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 77
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.6078033447265625 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 72
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.074531316757202 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 78
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.45017409324646 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.685942888259888 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.93394160270691 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 44
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 13.840494632720947 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.68
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 77]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 4
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 37
+     [+]No building of tree required
+ [*]Child took 8.35740065574646 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 91
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.933725833892822 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.73254656791687 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 83
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 56
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 16.043071746826172 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 16
+     [+]No building of tree required
+ [*]Child took 7.373256206512451 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 72
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.701538801193237 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.68
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 77]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 5
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 82
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.621535062789917 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 78
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.76216459274292 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 7.95121169090271 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 26
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.824373722076416 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 80
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.652783870697021 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.324532508850098 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 53
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.37134838104248 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.682
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 6
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 62
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.54319429397583 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 1
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.762166023254395 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 66
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.637156248092651 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.091837882995605 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 96
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.951204299926758 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 61
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.920032024383545 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 56
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.029317855834961 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6905
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 62]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 7
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 82
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.918076753616333 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.355741262435913 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 40
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 16.05869770050049 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 66
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 6.982750177383423 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 54
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.730856895446777 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.029350996017456 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 71
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.9512412548065186 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.696
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 62, 82]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 8
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 83
+     [+]No building of tree required
+ [*]Child took 8.404258966445923 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.62130069732666 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 70
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.355772018432617 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 7.998071908950806 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 14.934000730514526 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 52
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.96493148803711 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6975
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 9
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 10
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 16.402379989624023 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 18
+     [+]No building of tree required
+ [*]Child took 8.435487985610962 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.763586282730103 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 7.982449531555176 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 35
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 15.621297836303711 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 42
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.185587406158447 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 24
+     [+]No building of tree required
+ [*]Child took 8.326128005981445 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.698
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 10
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 9.13849925994873 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 66
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 17.04283380508423 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 17
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 17.152159929275513 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 53
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 16.23052668571472 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 56
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.779173135757446 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 7
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 16.261772394180298 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 17.839525938034058 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.6985
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 62, 82, 77, 1, 40, 52]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 11
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 83
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 31
+     [+]No building of tree required
+ [*]Child took 9.013492345809937 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 9.279086112976074 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 64
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 17.933217525482178 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 64
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 17.292812824249268 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 20
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.450856924057007 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 90
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.419682264328003 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.701
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 77, 1, 90]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 12
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.66958498954773 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 18.870498657226562 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.419646501541138 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 72
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 92
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.794830560684204 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 11
+     [+]No building of tree required
+ [*]Child took 8.607300758361816 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 38
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.31052851676941 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.708
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 13
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 61
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 18.43313956260681 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 18
+     [+]No building of tree required
+ [*]Child took 9.669579982757568 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.919534921646118 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 53
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.716415166854858 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 24
+     [+]No building of tree required
+ [*]Child took 9.419646978378296 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 75
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.419639825820923 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.724
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 14
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 10
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 18.620615243911743 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 9.99763822555542 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 61
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.685440301895142 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 82
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 95
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 18.667454957962036 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 77
+     [+]No building of tree required
+ [*]Child took 9.877178430557251 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 91
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 19.229819536209106 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.725
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 15
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 95
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.169469356536865 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 62
+     [+]No building of tree required
+ [*]Child took 10.044518947601318 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 94
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 19.32352638244629 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.028905391693115 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 37
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 32
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 21
+     [+]No building of tree required
+ [*]Child took 0.0 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.725
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 16
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 42
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 9.966390371322632 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 48
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 95
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 8.935379981994629 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 9.982015609741211 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 92
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 18.886181831359863 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 20
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.310027599334717 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7295
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 17
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 61
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 43
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 19.85470724105835 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 14
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 35
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.294399738311768 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 37
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 19
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 20.16710376739502 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 20
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.075763940811157 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7295
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 18
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 81
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.216322183609009 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 55
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.46624755859375 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 78
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.200708866119385 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 9
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 77
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 19.30795907974243 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 20.073370695114136 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 65
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 20.07334065437317 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7305
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 19
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 79
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.153846263885498 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.403784990310669 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 92
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.200739860534668 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 37
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 56
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.341269731521606 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 31
+     [+]No building of tree required
+ [*]Child took 0.0 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7305
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 20
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.59121298789978 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 21
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 90
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 31
+     [+]No building of tree required
+ [*]Child took 10.231951475143433 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 14
+     [+]No building of tree required
+ [*]Child took 10.216369390487671 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 49
+     [+]No building of tree required
+ [*]Child took 10.32564377784729 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7305
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 21
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 54
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.606859683990479 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 41
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.513174295425415 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 65
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.591205358505249 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.54437780380249 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 52
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 35
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.872423648834229 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 40
+     [+]No building of tree required
+ [*]Child took 0.0 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.732
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 22
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 28
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.419375658035278 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 14
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 26
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.638103246688843 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.68497371673584 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 78
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.38819932937622 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 63
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.731834173202515 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 97
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.653692722320557 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7495
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 23
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.463643550872803 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 96
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.809936285018921 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.919290542602539 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.606863498687744 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 29
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.638106346130371 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 0
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.24496603012085 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7505
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 24
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 46
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.966192722320557 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 19
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.622477054595947 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 42
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 21
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 35
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 41
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.760443449020386 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 87
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.825590133666992 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7515
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 46]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 25
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 93
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.450410842895508 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 63
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 22.0260329246521 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 7
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.169257402420044 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 10.981780290603638 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 41
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.71618103981018 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 78
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.638103485107422 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 81
+     [+]No building of tree required
+ [*]Child took 11.091126918792725 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.761
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 26
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 59
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 22.744611024856567 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.216095447540283 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 35
+     [+]No building of tree required
+ [*]Child took 11.356683254241943 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 90
+     [+]No building of tree required
+ [*]Child took 11.231718063354492 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 35
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 82
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 65
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.99479031562805 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7615
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 27
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 7
+     [+]No building of tree required
+ [*]Child took 11.559788227081299 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 33
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.403522491455078 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 12
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 22.96331548690796 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 34
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.43195080757141 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 94
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.21325159072876 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 83
+     [+]No building of tree required
+ [*]Child took 11.247376203536987 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 90
+     [+]No building of tree required
+ [*]Child took 11.35664677619934 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7635
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 28
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 82
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 23
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.7912118434906 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 97
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.622251033782959 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 14
+     [+]No building of tree required
+ [*]Child took 11.794105052947998 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 88
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.439217805862427 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 8
+     [+]No building of tree required
+ [*]Child took 11.356655836105347 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 84
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.68191957473755 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.7635
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 29
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.809703350067139 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 62
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.934672355651855 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 71
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.16641592979431 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 7
+     [+]No building of tree required
+ [*]Child took 0.0 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 30
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 10
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.278381824493408 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 77
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 46
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 83
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 94
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.856552839279175 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.075238943099976 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 43
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.919051170349121 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 31
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.09084677696228 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 14
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 8
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 81
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 7
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 99
+     [+]No building of tree required
+ [*]Child took 12.231478452682495 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 64
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.96591591835022 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 32
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 23
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.262719869613647 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 63
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.340826034545898 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 41
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.215857982635498 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.262724161148071 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.106504917144775 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 51
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 7
+     [+]No building of tree required
+ [*]Child took 0.0 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 33
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 26
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 48
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 16
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 7
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 64
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.309580087661743 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 43
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.16896367073059 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 34
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 30
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.372035503387451 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 13
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.16899561882019 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 55
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.137752532958984 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 11
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 5
+     [+]No building of tree required
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.293997764587402 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 88
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.153334617614746 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 39
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.309584379196167 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.765
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 35
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.075263738632202 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 6
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.185087442398071 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 92
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.356480836868286 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.122097969055176 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.278342962265015 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 8
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 71
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.106506586074829 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8235
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 36
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 87
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.057510375976562 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 21
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 82
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 2
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 24.33796000480652 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 56
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.247096538543701 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 9
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 54
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 12.184652328491211 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8245
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 37
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 16
+     [+]No building of tree required
+ [*]Child took 10.794347524642944 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 86
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 20.999913930892944 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 52
+     [+]No building of tree required
+ [*]Child took 10.872391700744629 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 8
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 84
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 25.2596755027771 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 55
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 25.603280544281006 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 45
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.7599995136261 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.827
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 71]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 38
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.341060638427734 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 2
+     [+]No building of tree required
+   [+]Mutating child with: 60
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 67
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.966179132461548 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 44
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.060094118118286 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 79
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.278611898422241 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 97
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.22887372970581 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 21
+     [+]No building of tree required
+ [*]Child took 10.731802940368652 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.844
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 44]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 39
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 35
+     [+]No building of tree required
+ [*]Child took 10.231951713562012 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 32
+     [+]No building of tree required
+ [*]Child took 11.778459310531616 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 27
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.122396469116211 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 80
+     [+]No building of tree required
+ [*]Child took 11.387897968292236 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 22
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 94
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 22.71337103843689 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 22.151009559631348 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8485
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 44, 71]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 40
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 79
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 25.962629795074463 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 22
+     [+]No building of tree required
+ [*]Child took 10.434997797012329 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 11
+     [+]No building of tree required
+ [*]Child took 10.356925964355469 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 97
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.325479984283447 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 2
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.20046854019165 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 2
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 31
+     [+]No building of tree required
+ [*]Child took 10.341265678405762 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 41
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 21.93233871459961 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8485
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 44, 71]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 41
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 90
+     [+]No building of tree required
+ [*]Child took 10.27881669998169 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 4
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 79
+     [+]No building of tree required
+ [*]Child took 12.153371810913086 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 75
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 13.934201955795288 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 25
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.903666019439697 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 3
+     [+]No building of tree required
+   [+]Mutating child with: 49
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 19
+     [+]No building of tree required
+ [*]Child took 12.762604713439941 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 12
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.466273546218872 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8485
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 44, 71]
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+[*]Mutation 2.0 : 42
+[+]Removing weak children
+[+]Weak children removed
+[+]Mating and mutating children
+ [*]Child: 1 of 7
+   [+]Mating children 1 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 47
+     [+]No building of tree required
+ [*]Child took 11.6066575050354 s
+ [*]Child: 2 of 7
+   [+]Mating children 2 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 98
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 23.43192219734192 s
+ [*]Child: 3 of 7
+   [+]Mating children 3 and 6
+     [+]No building of tree required
+   [+]Mutating child with: 73
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 11.091123580932617 s
+ [*]Child: 4 of 7
+   [+]Mating children 4 and 5
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 30
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 24.21305513381958 s
+ [*]Child: 5 of 7
+   [+]Mating children 5 and 4
+     [+]No building of tree required
+   [+]Mutating child with: 1
+     [+]No building of tree required
+ [*]Child took 0.0 s
+ [*]Child: 6 of 7
+   [+]Mating children 6 and 1
+     [+]No building of tree required
+   [+]Mutating child with: 96
+     [+]Building Tree
+     [+]Tree Built
+ [*]Child took 10.278780221939087 s
+ [*]Child: 7 of 7
+   [+]Mating children 7 and 3
+     [+]Building Tree
+     [+]Tree Built
+   [+]Mutating child with: 15
+     [+]No building of tree required
+ [*]Child took 10.653725624084473 s
+[+]Children mated and mutated
+[*]Top effectiveness : 0.8605
+[*]Top attributes : [4, 83, 16, 18, 99, 51, 32, 89, 37, 9, 49, 50, 47, 21, 48, 70, 24, 14, 31, 60, 11, 8, 72, 80, 40, 52, 62, 82, 38, 61, 77, 1, 90, 42, 81, 35, 28, 26, 7, 46, 19, 22, 6, 15, 44, 71, 27, 96]
+[+]Data received
+[+]Dictionary created
+[*]True values: 764
+[*]False values: 1236
+[*]Entropy: 0.9594423211075276
+[*]Final Effectiveness: 0.862
+==================================================
+==================================================
+==================================================
+[*]True positive: 600
+[*]True negative: 1124
+[*]False positive: 112
+[*]False negative: 164
+==================================================
+==================================================
+==================================================
+[+]Saving temp file
+[+]Temp file saved
+[*]time elapsed: 3333.587987422943
+
+Process finished with exit code 0
