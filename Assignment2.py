@@ -484,6 +484,7 @@ def GA():
         topEff = children[0]['Effectiveness']
         print('[*]Top effectiveness :', topEff)
         print('[*]Top attributes :', children[0]['NodeArr'])
+        print('[*]Number of attributes :', len(children[0]['NodeArr']))
     print('')
     print('')
     print('============================================================================================')
