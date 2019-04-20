@@ -105,7 +105,7 @@ node = {
             'Value': 0
         },
     'Gain': -1,  # Information Gain, mainly used when constructing tree
-    'List': []  # List of attributes it still has, TODO check
+    'List': []  # List of attributes it still has, rarely used, if at all
 
 }
 
@@ -340,7 +340,7 @@ def filterDict(aDict, toKeep):
     return tempDict
 
 
-# Builds the ID3 tree recursively, path is the current path already taken in the recusion
+# Builds the ID3 tree recursively, path is the current path already taken in the recursion
 def buildID3(aList, aDictData, path):
     lArr = copy.deepcopy(aList)
     # Filters the dictionary to keep only data relevant to that path
@@ -383,6 +383,7 @@ def buildID3(aList, aDictData, path):
     return selectedChild
 
 
+# Crosses two parents together and returns the child
 def mate(aParent1, aParent2):
     global gDictDataTraining
     # Combine two arrays/lists
@@ -393,27 +394,33 @@ def mate(aParent1, aParent2):
         if item not in lListC:
             lListC.append(item)
 
+    # If there is a difference between the two parents
     if not set(lListC) == set(lList):
         print('     [+]Building Tree')
         root = buildID3(lListC.copy(), copy.deepcopy(gDictDataTraining), [])
         print('     [+]Tree Built')
+
+    # If there isn't a difference, it does'nt rebuild the tree.
     else:
         print('     [+]No building of tree required')
-        return aParent1
+        return aParent1  # Should return a deep copy but no problems have been encountered, so kept it as is to
+    # improve efficiency
     child = {
         'Node': root,
-        'NodeArr': lListC,  # here maybe
+        'NodeArr': lListC,
         'Effectiveness': calEffectiveness(root, gDictDataTraining)
     }
     return child
 
 
+# Evolves each child by  using crossing and mutation
 def Evolve(children):
     print('[+]Removing weak children')
-    children = removeChildren(children, 0.67)  # removes lower 75 children
+    children = removeChildren(children, 0.67)  # removes lower 67% of children
     print('[+]Weak children removed')
     print('[+]Mating and mutating children')
     cnt = 1
+    # Keeps original length
     length = len(children)
     for x in range(length):
         child = children[x]
@@ -421,14 +428,15 @@ def Evolve(children):
         begin = time.time()
         cnt += 1
         randomNum = random.randint(1, length + 1)
+        # Picks another random parent
         if randomNum >= length:
             randomNum = length - 1
         print('   [+]Mating children', cnt - 1, 'and', randomNum)
-        children.append(mate(child, children[randomNum]))  # creates 400 children
-        # if randomNum > lent/4:
+        children.append(mate(child, children[randomNum]))
         mutation = random.randint(1, 101) - 1
         if mutation >= 100:
             mutation = 99
+        # Creates dummy parent, this will be used to mutate parent
         mutatedChild = {
             'NodeArr': [mutation]
         }
@@ -441,11 +449,12 @@ def Evolve(children):
     return children
 
 
+# The GA that performs generation creation and testing
 def GA():
     global gDictDataTraining
     children = []
     print('[+]Creating random children')
-    for x in range(100):
+    for x in range(15):
         randomNum = random.randint(1, 101) - 1
         if randomNum >= 100:
             randomNum = 99
@@ -461,6 +470,8 @@ def GA():
     children.sort(key=sortByGain, reverse=True)
     topEff = 0.0
     x = 0
+
+    # Keeps editing chromosome till it accurately represents the training data
     while topEff < 0.999999:  # Basically 100% accuracy (99.9999%)
         x += 1
         print('')
@@ -483,11 +494,12 @@ def GA():
 
     topEff = 0.0
     x = 0
+    # Recalculates effectiveness against validation data
     for child in children:
         child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
-    # this keeps evolving till either it reaches 100% accuracy or 200 generations have been run,
-    # but it still needs to get at least 88.04% accuracy.
-    while topEff < 0.9999 and (x < 200 or x < 0.8804):
+    # this keeps evolving till either it reaches 100% accuracy or 100 generations have been run,
+    # but it still needs to get at least 87% accuracy. Still using training data to train
+    while topEff < 0.9999 and (x < 100 or x < 0.87):
         x += 1
         print('')
         print('')
@@ -496,6 +508,7 @@ def GA():
         print('============================================================================================')
         print('[*]Mutation 2.0 :', x)
         children = Evolve(children)
+        # Recalculates effectiveness against validation data
         for child in children:
             child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
         children.sort(key=sortByEffectiveness, reverse=True)
@@ -511,6 +524,7 @@ def GA():
     return children[0]
 
 
+# Main
 def testCodeGA():
     global gDictDataTraining
     start = time.time()
@@ -555,12 +569,11 @@ def testCodeGA():
     print('[*]Time elapsed:', end - start, 's')
 
 
+# Creates default ID3 tree
 def createID3with100():
     global gDictDataTraining
     start = time.time()
     lData = readFile('Training_Data.txt')
-    # Mini_Understanding
-    # Training_Data
     print('[+]Data received')
     gDictDataTraining = createDict(lData)
     gDictDataTraining = gDictDataTraining['Line']
@@ -602,5 +615,5 @@ def createID3with100():
     print('[*]Time elapsed:', end - start, 's')
 
 
-# testCodeGA()
-createID3with100()
+testCodeGA()  # comment out when creating ID3 will all 100 generations
+# createID3with100()  # uncomment to create ID3 will all 100 generations

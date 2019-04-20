@@ -1,0 +1,27 @@
+C:\Users\Dean\AppData\Local\Programs\Python\Python37\python.exe "C:/Users/Dean/Desktop/Desktop/2019/COS 314/Assignments/Assignment 2 Git/COS314A2/Assignment2.py"
+[+]Data received
+[+]Dictionary created
+==================================================
+     [+]Building Tree
+     [+]Tree Built
+[+]Data received
+[+]Dictionary created
+[*]True values: 764
+[*]False values: 1236
+[*]Entropy: 0.9594423211075276
+[*]Final Effectiveness: 0.8415
+==================================================
+==================================================
+==================================================
+[*]True positive: 583
+[*]True negative: 1100
+[*]False positive: 136
+[*]False negative: 181
+==================================================
+==================================================
+==================================================
+[+]Saving temp file
+[+]Temp file saved
+[*]Time elapsed: 29.36070942878723 s
+
+Process finished with exit code 0
