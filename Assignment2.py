@@ -1,13 +1,14 @@
-import time
-import math
-import copy
-import json  # TODO remove after testing
-import random
+import time  # For calculation of time taken
+import math  # For calculation of Entropy (Log)
+import copy  # For deep copying data
+import json  # To save the dictionary (tree) as json data
+import random  # To generate random numbers
 
-
+# The dictionary that will be used to hold the training data
 gDictDataTraining = {}
 
 
+# Reads in the file
 def readFile(aName):
     data = []
     f = open(aName, "r")
@@ -17,11 +18,13 @@ def readFile(aName):
     return data
 
 
+# Creates a dictionary from the data obtained from the text file
 def createDict(aData):
     lDict = {
-        'Line': []
+        'Line': []  # This is useless, but decided to leave it in
     }
-    for line in aData:  # TODO find better name for line
+    for line in aData:
+        # Basic structure to be followed for each line from the text file
         lineDict = {
             'Value': True,
             'Data': {}
@@ -32,7 +35,7 @@ def createDict(aData):
         cleanLine = cleanLine.split()  # converts string to array of size 2 (data and value)
 
         # dataOrValue checks if it is a True/False or 0 or 1
-        for dataOrValue in cleanLine:  # TODO find better name for dataOrValue
+        for dataOrValue in cleanLine:
             if dataOrValue == 'True':
                 lineDict['Value'] = True
             elif dataOrValue == 'False':
@@ -44,13 +47,15 @@ def createDict(aData):
                         lineDict['Data'][count] = True
                     else:
                         lineDict['Data'][count] = False
-                    count += 1  # assumed counter necessary for tree creation
+                    count += 1  # Assumed counter necessary for tree creation
         lDict['Line'].append(lineDict)
     return lDict
 
 
+# Calculates the entropy, given the number of true and false attributes.
 def calcEntropy(aNumTrue, aNumFalse):
     lTotal = aNumTrue + aNumFalse
+    # Safety measure
     if lTotal == 0:
         return 0
 
@@ -66,11 +71,12 @@ def calcEntropy(aNumTrue, aNumFalse):
     return lSetEntropy
 
 
+# Calculates the initial entropy for all of the data
 def computeSetEntropy(aDict):
     lSetTrue = 0
     lSetFalse = 0
     lTotal = 0
-    # lSetEntropy = 0
+
     for line in aDict['Line']:
         if line['Value']:
             lSetTrue += 1
@@ -82,12 +88,13 @@ def computeSetEntropy(aDict):
     return lSetTrue, lSetFalse, lSetEntropy
 
 
+# The default node class
 node = {
-    'Label': -1,
-    'True': {},
-    'False': {},
-    'EndOutcome':
-        {
+    'Label': -1,  # Which attribute it represents
+    'True': {},  # Link to next node if 1
+    'False': {},  # Link to next node if 0
+    'EndOutcome':  # Mainly used for leaves in determining if it should return true or false
+    {
             'True': 0,
             'False': 0
         },
@@ -97,25 +104,27 @@ node = {
             'False': 0,
             'Value': 0
         },
-    'Gain': -1,
-    'List': []
+    'Gain': -1,  # Information Gain, mainly used when constructing tree
+    'List': []  # List of attributes it still has, TODO check
 
 }
 
 
+# Builds the ID3 tree recursively given a root node, array of attributes to use and a dictionary containing the data
 def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
     lArr = aArr
     num = lArr.pop(0)
 
-    if not aNode:  # if the doesn't node exists
-        # aNode = node.copy()
+    if not aNode:  # If the node doesn't exists
         aNode = copy.deepcopy(node)
         aNode['Label'] = num
-
+    # If the value is true increase entropy's true value
     if aDict['Value']:
         aNode['Entropy']['True'] = aNode['Entropy']['True'] + 1
+    # If the value is false increase entropy's false value
     else:
         aNode['Entropy']['False'] = aNode['Entropy']['False'] + 1
+    # Calculates entropy's new value, might be inefficient
     aNode['Entropy']['Value'] = calcEntropy(aNode['Entropy']['True'], aNode['Entropy']['False'])
 
     if lArr:  # If we need to go deeper in the tree
@@ -125,7 +134,7 @@ def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
         else:
             tempNode = buildTreeTest(aNode['False'], lArr, aDict)
             aNode['False'] = tempNode
-    else:  # if we reached the leaf
+    else:  # If we reached the leaf, set values over.
         if aDict['Value']:
             aNode['EndOutcome']['True'] = aNode['EndOutcome']['True'] + 1
         else:
@@ -133,7 +142,8 @@ def buildTreeTest(aNode, aArr, aDict):  # arr is a sorted ordering of splitting
     return aNode
 
 
-def evaluateTree(aNode, aDict):  # TODO fix with newNode structure
+# Evaluates the tree's accuracy recursively given a dictionary to test against
+def evaluateTree(aNode, aDict):
     if aDict['Data'][aNode['Label']]:
         if aNode['True']:
             return evaluateTree(aNode['True'], aDict)
@@ -152,11 +162,13 @@ def evaluateTree(aNode, aDict):  # TODO fix with newNode structure
                 return False
 
 
-def jsonFile(aDictionary, aFileName):  # TODO remove after testing
+# Converts the tree to json data, for a more visual effect, and to reuse later if necessary
+def jsonFile(aDictionary, aFileName):
     with open(aFileName, 'w') as j:
         json.dump(aDictionary, j)
 
 
+# Code created for initial testing, no longer used
 def testCode():
     start = time.time()
     lData = readFile('Training_Data.txt')
@@ -228,6 +240,7 @@ def testCode():
     print('time elapsed:', end - start)
 
 
+# Returns the basic accuracy calculation of the tree.
 def calEffectiveness(root, aDictData):
     tru = 0
     count = 0
@@ -236,9 +249,10 @@ def calEffectiveness(root, aDictData):
         if line['Value'] == test:
             tru += 1
         count += 1
-    return tru/count
+    return tru / count
 
 
+# Returns a more in depth representation of the accuracy of the tree, can be used for confusion matrix
 def confusionData(root, aDictData):
     lTruePositive = 0
     lTrueNegative = 0
@@ -260,53 +274,60 @@ def confusionData(root, aDictData):
     return lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative
 
 
+# Creates children (nodes) that will have a gain value
 def createRandomChild(aDictData, randomNum):
     child = {}
     for line in aDictData:
         child = buildTreeTest(child, [randomNum, 100], line)
+    # If there was an error somewhere
     if 'False' not in child or 'True' not in child:
-        i = 0
+        pass
+    # If child was not correctly created
     if 'Entropy' in child:
         lTotal = child['Entropy']['True'] + child['Entropy']['False']
     else:
-        # print('line', child)
         lTotal = 1
     if 'Entropy' in child['False'] and 'Entropy' in child['True']:
         child['Gain'] = child['Entropy']['Value'] - (
-            (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value']) - (
-            (child['Entropy']['False'] / lTotal) * child['False']['Entropy']['Value'])
+                (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value']) - (
+                                (child['Entropy']['False'] / lTotal) * child['False']['Entropy']['Value'])
     elif 'Entropy' in child['False']:
         child['Gain'] = child['Entropy']['Value'] - (
                 (child['Entropy']['False'] / lTotal) * child['False']['Entropy']['Value'])
     else:
         child['Gain'] = child['Entropy']['Value'] - (
                 (child['Entropy']['True'] / lTotal) * child['True']['Entropy']['Value'])
-        # print('line', child)
 
+    # Removes true and false as they were dummy nodes used to calculate gain
     child['False'] = {}
     child['True'] = {}
     return child
 
 
+# Used for sorting
 def sortByGain(val):
     return val['Node']['Gain']
 
 
+# Used for sorting
 def sortByGain2(val):
     return val['Gain']
 
 
+# Used for sorting
 def sortByEffectiveness(val):
     return val['Effectiveness']
 
 
+# Removes the weakest children using a decimal passed in
 def removeChildren(aChildren, aStrength):
-    numToRemove = int(len(aChildren)*aStrength)
+    numToRemove = int(len(aChildren) * aStrength)
     for x in range(numToRemove):
         aChildren.pop()
     return aChildren
 
 
+# reduces size of dictionary by only keeping relevant lines
 def filterDict(aDict, toKeep):
     tempDict = []
     for line in aDict:
@@ -319,18 +340,19 @@ def filterDict(aDict, toKeep):
     return tempDict
 
 
+# Builds the ID3 tree recursively, path is the current path already taken in the recusion
 def buildID3(aList, aDictData, path):
     lArr = copy.deepcopy(aList)
-    # num = lArr.pop(0)
-    # print('        [+]Filtering Dictionary')
+    # Filters the dictionary to keep only data relevant to that path
     newDict = filterDict(aDictData, path)
-    # print('        [+]Dictionary Filtered')
     candidates = []
 
+    # Creates children and then keeps the one that has the highest IG
     for num in lArr:
         if newDict:
             tempNode = createRandomChild(newDict, num)
         else:
+            # If something went wrong, dictionary doesn't exist
             tempNode = copy.deepcopy(node)
             tempNode['Label'] = num
         candidates.append(tempNode)
@@ -343,8 +365,8 @@ def buildID3(aList, aDictData, path):
     # if there is a path to follow and it is needed (confusion between true and false exist)
     if lArr and selectedChild['Entropy']['True'] > 0 and selectedChild['Entropy']['False'] > 0:
         pathTrue.append({
-             'Label': num,
-             'Value': True})
+            'Label': num,
+            'Value': True})
         pathFalse.append({
             'Label': num,
             'Value': False})
@@ -355,8 +377,6 @@ def buildID3(aList, aDictData, path):
         selectedChild['False'] = tempNode
 
     else:
-        # if lArr:
-        #     print('Yata')
         selectedChild['EndOutcome']['True'] = selectedChild['Entropy']['True']
         selectedChild['EndOutcome']['False'] = selectedChild['Entropy']['False']
 
@@ -389,7 +409,6 @@ def mate(aParent1, aParent2):
 
 
 def Evolve(children):
-
     print('[+]Removing weak children')
     children = removeChildren(children, 0.67)  # removes lower 75 children
     print('[+]Weak children removed')
@@ -401,22 +420,22 @@ def Evolve(children):
         print(' [*]Child:', cnt, 'of', length)
         begin = time.time()
         cnt += 1
-        randomNum = random.randint(1, length+1)
+        randomNum = random.randint(1, length + 1)
         if randomNum >= length:
-            randomNum = length-1
-        print('   [+]Mating children', cnt-1, 'and', randomNum)
+            randomNum = length - 1
+        print('   [+]Mating children', cnt - 1, 'and', randomNum)
         children.append(mate(child, children[randomNum]))  # creates 400 children
         # if randomNum > lent/4:
-        mutation = random.randint(1, 101) - 1  # TODO switch to 101
-        if mutation >= 100:  # TODO switch to 100
-            mutation = 99   # TODO switch to 99
+        mutation = random.randint(1, 101) - 1
+        if mutation >= 100:
+            mutation = 99
         mutatedChild = {
             'NodeArr': [mutation]
         }
         print('   [+]Mutating child with:', mutation)
         children.append(mate(child, mutatedChild))
         endTime = time.time()
-        print(' [*]Child took', endTime-begin, 's')
+        print(' [*]Child took', endTime - begin, 's')
     print('[+]Children mated and mutated')
 
     return children
@@ -426,10 +445,10 @@ def GA():
     global gDictDataTraining
     children = []
     print('[+]Creating random children')
-    for x in range(21):
-        randomNum = random.randint(1, 101)-1  # TODO switch to 101
-        if randomNum >= 100:  # TODO switch to 100
-            randomNum = 99  # TODO switch to 99
+    for x in range(100):
+        randomNum = random.randint(1, 101) - 1
+        if randomNum >= 100:
+            randomNum = 99
         #  create children randomly
         tempNode = createRandomChild(gDictDataTraining, randomNum)
         child = {
@@ -457,8 +476,7 @@ def GA():
         print('[*]Top effectiveness :', topEff)
         print('[*]Top attributes :', children[0]['NodeArr'])
     lData = readFile('Validation_Data.txt')
-    # Mini_Understanding
-    # Training_Data
+
     print('[+]Data received')
     lDictData = createDict(lData)
     lDictData = lDictData['Line']
@@ -467,9 +485,9 @@ def GA():
     x = 0
     for child in children:
         child['Effectiveness'] = calEffectiveness(child['Node'], lDictData)
-    # this keeps evolving till either it reaches 100% accuracy or 120 generations have been run,
-    # but it still needs to get at least 86% accuracy.
-    while topEff < 0.9999 and (x < 120 or x < 0.86):  # changed to 99.99% from 85
+    # this keeps evolving till either it reaches 100% accuracy or 200 generations have been run,
+    # but it still needs to get at least 88.04% accuracy.
+    while topEff < 0.9999 and (x < 200 or x < 0.8804):
         x += 1
         print('')
         print('')
@@ -497,18 +515,18 @@ def testCodeGA():
     global gDictDataTraining
     start = time.time()
     lData = readFile('Training_Data.txt')
-    # Mini_Understanding
-    # Training_Data
+
     print('[+]Data received')
     gDictDataTraining = createDict(lData)
     gDictDataTraining = gDictDataTraining['Line']
     print('[+]Dictionary created')
+
     print('==================================================')
     #
     print('[+]Calling GA')
     children = GA()
     lData = readFile('Test_Data.txt')
-    # lData = readFile('Validation_Data.txt')
+
     print('[+]Data received')
     lDictDataTest = createDict(lData)
     print('[+]Dictionary created')
@@ -521,7 +539,8 @@ def testCodeGA():
     print('==================================================')
     print('==================================================')
     print('==================================================')
-    lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative = confusionData(children['Node'], lDictDataTest['Line'])
+    lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative = confusionData(children['Node'],
+                                                                                 lDictDataTest['Line'])
     print('[*]True positive:', lTruePositive)
     print('[*]True negative:', lTrueNegative)
     print('[*]False positive:', lFalsePositive)
@@ -530,11 +549,58 @@ def testCodeGA():
     print('==================================================')
     print('==================================================')
     print('[+]Saving temp file')
-    jsonFile(children['Node'], 'topChildRougher.json')
+    jsonFile(children['Node'], 'ID3UsingGA.json')
     print('[+]Temp file saved')
     end = time.time()
-    print('[*]time elapsed:', end - start)
+    print('[*]Time elapsed:', end - start, 's')
 
 
-# testCode()
-testCodeGA()
+def createID3with100():
+    global gDictDataTraining
+    start = time.time()
+    lData = readFile('Training_Data.txt')
+    # Mini_Understanding
+    # Training_Data
+    print('[+]Data received')
+    gDictDataTraining = createDict(lData)
+    gDictDataTraining = gDictDataTraining['Line']
+    print('[+]Dictionary created')
+    print('==================================================')
+    lList = []
+    for x in range(100):
+        lList.append(x)
+    print('     [+]Building Tree')
+    root = buildID3(lList, gDictDataTraining, [])
+    print('     [+]Tree Built')
+
+    lData = readFile('Test_Data.txt')
+    print('[+]Data received')
+    lDictDataTest = createDict(lData)
+    print('[+]Dictionary created')
+    setTrue, setFalse, setEntropy = computeSetEntropy(lDictDataTest)
+    print('[*]True values:', setTrue)
+    print('[*]False values:', setFalse)
+    print('[*]Entropy:', setEntropy)
+    eff = calEffectiveness(root, lDictDataTest['Line'])
+    print('[*]Final Effectiveness:', eff)
+    print('==================================================')
+    print('==================================================')
+    print('==================================================')
+    lTruePositive, lTrueNegative, lFalsePositive, lFalseNegative = confusionData(root,
+                                                                                 lDictDataTest['Line'])
+    print('[*]True positive:', lTruePositive)
+    print('[*]True negative:', lTrueNegative)
+    print('[*]False positive:', lFalsePositive)
+    print('[*]False negative:', lFalseNegative)
+    print('==================================================')
+    print('==================================================')
+    print('==================================================')
+    print('[+]Saving temp file')
+    jsonFile(root, 'ID3NotUsingGA.json')
+    print('[+]Temp file saved')
+    end = time.time()
+    print('[*]Time elapsed:', end - start, 's')
+
+
+# testCodeGA()
+createID3with100()
